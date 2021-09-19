@@ -12,7 +12,7 @@
 SET SOURCE_DIR=.
 
 :: For generators see "cmake --help"
-SET GENERATOR=Visual Studio 15 2017
+SET GENERATOR=Visual Studio 16 2019
 
 SET BINARIES_DIR="./BINARIES/Win32"
 cmake CMakeLists.txt -G "%GENERATOR%" -S %SOURCE_DIR% -B %BINARIES_DIR%
